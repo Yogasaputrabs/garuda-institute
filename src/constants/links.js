@@ -1,0 +1,1 @@
+export const WHATSAPP_URL = 'https://wa.me/6285810078161?text=Halo%2C%20saya%20mau%20tanya%20soal%20Garuda%20Institute.';
