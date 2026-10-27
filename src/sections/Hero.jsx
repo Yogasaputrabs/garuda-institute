@@ -28,9 +28,21 @@ export default function Hero() {
           </div>
           <div className="mt-10 md:mt-12 flex flex-col sm:flex-row items-center gap-4 sm:gap-6 justify-center lg:justify-start">
             <div className="flex -space-x-3">
-              <div className="w-10 h-10 rounded-full border-2 border-surface bg-gray-200" />
-              <div className="w-10 h-10 rounded-full border-2 border-surface bg-gray-300" />
-              <div className="w-10 h-10 rounded-full border-2 border-surface bg-gray-400" />
+              <img
+                alt="Dany Raihan Edwin W"
+                className="w-10 h-10 rounded-full border-2 border-surface object-cover"
+                src="/assets/02.3-hero-alumni/dany-raihan-edwin.webp"
+              />
+              <img
+                alt="Jordan Arnaldo S."
+                className="w-10 h-10 rounded-full border-2 border-surface object-cover"
+                src="/assets/02.3-hero-alumni/jordan-arnaldo-sihombing.webp"
+              />
+              <img
+                alt="Lumbu Wisesa"
+                className="w-10 h-10 rounded-full border-2 border-surface object-cover"
+                src="/assets/02.3-hero-alumni/lumbu-wisesa.webp"
+              />
             </div>
             <p className="text-secondary font-label-md text-label-md">Bergabung dengan alumni sukses lainnya</p>
           </div>
