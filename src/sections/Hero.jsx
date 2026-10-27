@@ -47,7 +47,7 @@ export default function Hero() {
             <p className="text-secondary font-label-md text-label-md">Bergabung dengan alumni sukses lainnya</p>
           </div>
         </div>
-<div className="relative order-1 lg:order-2 px-4 md:px-0 flex flex-col items-center justify-center">
+<div className="relative order-1 lg:order-2 px-4 md:px-0 flex items-center justify-center">
               <div className="absolute w-full h-full rounded-full blur-3xl pointer-events-none -z-0 opacity-70" style={{ background: 'radial-gradient(circle, rgba(247, 189, 72, 0.18) 0%, rgba(247, 189, 72, 0.05) 50%, transparent 75%)' }} />
               <div className="relative z-10 w-full flex justify-center items-end">
                 <img
@@ -56,14 +56,6 @@ export default function Hero() {
                   src="/assets/02-hero/hero-main.webp"
                   style={{ maskImage: 'linear-gradient(to bottom, black 88%, transparent 100%)', WebkitMaskImage: 'linear-gradient(to bottom, black 88%, transparent 100%)' }}
                 />
-              </div>
-              <div className="relative z-10 w-full max-w-md lg:max-w-lg flex justify-start mt-4 md:mt-6 px-2">
-                <div className="backdrop-blur-md bg-white/90 border border-primary/20 px-5 py-3.5 rounded-2xl shadow-lg">
-                  <p className="text-secondary text-xs md:text-label-md font-label-md uppercase tracking-wider mb-1 flex items-center gap-1.5">
-                    <span className="material-symbols-outlined text-primary text-sm" style={{ fontVariationSettings: '"FILL" 1' }}>trending_up</span> Success Rate
-                  </p>
-                  <p className="text-primary font-headline-md text-xl md:text-2xl font-bold">94.2%</p>
-                </div>
               </div>
             </div>
           </div>
