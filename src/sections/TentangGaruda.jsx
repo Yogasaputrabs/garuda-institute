@@ -9,6 +9,15 @@ export default function TentangGaruda() {
               className="w-full h-auto object-cover"
               src="/assets/02.2-deskripsi/deskripsi.webp"
             />
+            <a
+              href="https://maps.app.goo.gl/p7f5gNUoUHwTB2Fk7"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 md:mt-6 inline-flex items-center gap-2 bg-primary text-on-primary font-bold py-3 md:py-4 px-8 md:px-10 rounded-lg shadow-lg hover:shadow-primary/20 transition-all w-fit"
+            >
+              <span className="material-symbols-outlined text-base">location_on</span>
+              Lihat Lokasi Kami
+            </a>
           </div>
           <div className="flex flex-col justify-center">
             <span className="inline-flex items-center gap-2 px-4 py-2 bg-primary-fixed rounded-full mb-6 w-fit">
@@ -32,15 +41,6 @@ export default function TentangGaruda() {
             <p className="text-secondary font-body-md text-sm md:text-base mt-6 md:mt-8 max-w-xl">
               Kenali program pelatihan kami dan mulai persiapkan langkah Anda menuju seleksi CPNS.
             </p>
-            <a
-              href="https://maps.app.goo.gl/p7f5gNUoUHwTB2Fk7"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-6 md:mt-8 inline-flex items-center gap-2 bg-primary text-on-primary font-bold py-3 md:py-4 px-8 md:px-10 rounded-lg shadow-lg hover:shadow-primary/20 transition-all w-fit"
-            >
-              <span className="material-symbols-outlined text-base">location_on</span>
-              Lihat Lokasi Kami
-            </a>
           </div>
         </div>
       </div>
