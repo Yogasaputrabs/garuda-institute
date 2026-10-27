@@ -49,14 +49,14 @@ export default function Training() {
               key={item.id}
               className={`flex flex-col md:flex-row items-stretch gap-8 md:gap-12 group ${item.reverse ? '' : ''}`}
             >
-              <div className={`w-full md:w-1/2 ${item.reverse ? 'order-2' : 'order-1'} overflow-hidden rounded-2xl border border-outline-variant transition-all shadow-lg aspect-[4/3] lg:aspect-video`}>
+              <div className={`w-full md:w-1/2 ${item.reverse ? 'order-1 md:order-2' : 'order-1'} overflow-hidden rounded-2xl border border-outline-variant transition-all shadow-lg aspect-[4/3] lg:aspect-video`}>
                 <img
                   alt={item.alt}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   src={item.image}
                 />
               </div>
-              <div className={`w-full md:w-1/2 flex flex-col justify-center text-center md:text-left ${item.reverse ? 'order-1' : 'order-2'} bg-surface-container-lowest p-6 md:p-8 rounded-2xl border border-outline-variant shadow-sm relative overflow-hidden whisper-shadow transition-all group-hover:border-primary/40`}>
+              <div className={`w-full md:w-1/2 flex flex-col justify-center text-center md:text-left ${item.reverse ? 'order-2 md:order-1' : 'order-2'} bg-surface-container-lowest p-6 md:p-8 rounded-2xl border border-outline-variant shadow-sm relative overflow-hidden whisper-shadow transition-all group-hover:border-primary/40`}>
                 <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-primary rounded-l-2xl hidden md:block" />
                 <div className="inline-flex items-center gap-2 px-3 py-1 bg-primary/10 rounded-full mb-3 w-fit mx-auto md:mx-0">
                   <span className="material-symbols-outlined text-primary text-sm" style={{ fontVariationSettings: "'FILL' 1" }}>{item.icon}</span>
