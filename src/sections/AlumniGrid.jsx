@@ -84,7 +84,7 @@ export default function AlumniGrid() {
         {alumniGridData.map((alumni, index) => (
           <div
             key={alumni.id}
-            className={`text-center group bg-white p-3 md:p-4 rounded-xl shadow-sm border border-outline-variant hover:border-primary transition-all ${alumni.visible === 'sm' ? 'hidden sm:block' : alumni.visible === 'md' ? 'hidden md:block' : ''}`}
+            className={`text-center group bg-white p-3 md:p-4 rounded-xl shadow-sm border border-outline-variant hover:border-primary transition-all`}
             style={{ transitionDelay: `${(index + 1) * 100}ms` }}
           >
             <div className="aspect-[3/4] overflow-hidden rounded-lg mb-3 bg-gray-100 flex items-center justify-center">
