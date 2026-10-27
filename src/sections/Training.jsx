@@ -47,7 +47,7 @@ export default function Training() {
           {trainingItems.map((item, index) => (
             <div
               key={item.id}
-              className={`flex flex-col md:flex-row items-center gap-8 md:gap-12 group ${item.reverse ? '' : ''}`}
+              className={`flex flex-col md:flex-row items-stretch gap-8 md:gap-12 group ${item.reverse ? '' : ''}`}
             >
               <div className={`w-full md:w-1/2 ${item.reverse ? 'order-2' : 'order-1'} overflow-hidden rounded-2xl border border-outline-variant transition-all shadow-lg aspect-[4/3] lg:aspect-video`}>
                 <img
