@@ -3,10 +3,10 @@ export default function TentangGaruda() {
     <section id="tentang" className="py-16 md:py-section-gap bg-surface-container-low">
       <div className="max-w-container-max mx-auto px-4 md:px-margin-desktop">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-          <div className="relative overflow-hidden rounded-2xl shadow-lg">
+          <div className="rounded-2xl shadow-lg flex flex-col items-center">
             <img
               alt="Tentang Garuda Institute"
-              className="w-full h-auto object-cover"
+              className="w-full h-auto object-cover rounded-2xl"
               src="/assets/02.2-deskripsi/deskripsi.webp"
             />
             <a
